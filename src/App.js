@@ -38,10 +38,10 @@ function App() {
       <Route path="/About/:Id">
      <Movieabout/>
       </Route>
-      
-      <Route path="/**">
+
+      {/* <Route path="/**">
      <Nopage/>
-      </Route>
+      </Route> */}
 
     </div>
   );
