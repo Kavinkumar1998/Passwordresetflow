@@ -1,0 +1,16 @@
+.Nopage{
+    margin-top:10rem;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:rgb(223, 153, 68);
+    color: black;
+    display: flex;
+    flex-direction: column;
+    font-size: larger;
+    text-align: center;
+}
+.button{
+    margin-top:2rem;
+    margin-left: auto;
+    margin-right: auto;
+}

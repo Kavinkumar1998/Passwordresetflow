@@ -1,0 +1,33 @@
+*{
+    padding:0px;
+    margin:0px;
+
+}
+.t-container{
+    background-color:rgb(49, 173, 49);
+    border-radius: 10px;
+    font-weight: bold;
+    height: auto;
+    width: auto;
+    
+    
+}
+.t-contentArea{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+.left{
+ 
+}
+.image{
+border-radius: 10px;
+height:300px;
+  margin-right: 2rem;
+}
+.right{
+    margin-top: -10rem;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 10px;
+}
