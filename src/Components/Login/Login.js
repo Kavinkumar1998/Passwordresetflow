@@ -158,6 +158,8 @@ export const Login =()=>{
           </Box>
         </Box>
     
+        <Typography  component="h2" variant="h6">Email:kavinajith1498@gmail.com</Typography>
+        <Typography  component="h2" variant="h6"> Password: 123456789 </Typography>
       </Container>
       
   );
