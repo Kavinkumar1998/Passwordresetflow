@@ -6,8 +6,8 @@ import Forgetpassword from './Components/Forgetpassword/Forgetpassword';
 import { Setpassword } from './Components/Setpassword/Setpassword';
 import { VerifyOTP } from './Components/Verifyotp/Verifyotp';
 import { Movie} from './Components/Home/Home.js';
-import Movieabout from './Movieabout/Movieabout';
-import Nopage from './Components/Nopage/Nopage';
+import Movieabout from './Components/Movieabout/Movieabout';
+import { Addmovie } from './Components/Addmovie/Addmovie';
 function App() {
   return (
     <div className="App">
@@ -38,6 +38,12 @@ function App() {
       <Route path="/About/:Id">
      <Movieabout/>
       </Route>
+
+      <Route path="/Addmovie">
+     <Addmovie/>
+      </Route>
+
+ 
 
       {/* <Route path="/**">
      <Nopage/>

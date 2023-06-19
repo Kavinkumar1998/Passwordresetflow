@@ -3,6 +3,7 @@ import  { useEffect, useState } from "react";
 import "./Home.css";
 import {  Typography } from '@mui/material';
 import { useHistory } from 'react-router-dom'
+import Navbar from '../Navbar/Navbar';
 
 
 
@@ -31,21 +32,21 @@ const getmovie = async() =>{
 },[])
 console.log(movie)
   return (
-
+    <div className='main'>
+<Navbar/>
 <div classNameName="card-container"> 
-<div className="main-content">
+<div className="head">
 <Typography sx={{ mt: 3, mb: 2,fontFamily:"cursive",fontWeight:"Bold",fontSize:"3rem"}} component="h1" variant="h5"> Movies </Typography>
 </div>         <div className="row" >
 {movie.map((movie)=>(
-                   <div className="container" key ={movie._id}onClick={()=>{history.push(`/About/${movie._id}`)}}>
-                   <div className="contentArea">
-                   <section className="title">{movie.Title}</section>
-                   <img src={movie.Poster} className="image" alt="Poster"/>
-                   </div>
-                   </div> 
+                  
+                   <img key ={movie._id}onClick={()=>{history.push(`/About/${movie._id}`)}} src={movie.Poster} className="image" alt="Poster"/>
+                  
               ))}
 </div>
         </div>
+    </div>
+
  
   )
 }

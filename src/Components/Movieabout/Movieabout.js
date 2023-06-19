@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom';
 import "./Movieabout.css"
+import Navbar from '../Navbar/Navbar';
+
 const Movieabout = () => {
 
     const {Id} = useParams();
@@ -29,6 +31,7 @@ const found = movie.filter(obj=>obj._id === Id);
   console.log(found);
   return (
     <div className='main'>
+      <Navbar/>
         {found.map((movie)=>(
             
                    <div className="t-container" key ={movie._id}>
