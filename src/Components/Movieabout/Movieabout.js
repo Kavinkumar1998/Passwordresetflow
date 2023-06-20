@@ -35,7 +35,9 @@ const found = movie.filter(obj=>obj._id === Id);
         {found.map((movie)=>(
             
                    <div className="t-container" key ={movie._id}>
-                    <div className="trailer"><iframe  width="100%" height="700px" src={movie.Trailer} title='youtube trailer' frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+                    <div className="trailer"><iframe   style={{"@media(max-width: 480px)":{
+                       width:"", height:""
+                    }}} src={movie.Trailer} title='youtube trailer' frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
                    <div className="t-contentArea">
                     <div ClassName="left">
                          <img src={movie.Poster} className="image" alt="Poster"/>

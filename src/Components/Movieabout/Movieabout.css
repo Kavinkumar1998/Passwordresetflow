@@ -35,3 +35,40 @@ height:300px;
     font-size: 1.5rem;
     padding: 10px;
 }
+iframe{
+    width:100%;
+    height:700px
+}
+@media screen and (max-width: 480px) {
+    .t-container{
+        height:auto;
+        margin-top:-2rem
+        
+    }
+    iframe{
+        margin-top:6rem;
+        width:100vw;
+        height:25vh;
+    }
+    .t-contentArea{
+    
+        align-items: center;
+        display: flex;
+        flex:1;
+        flex-direction: column;
+        color:  rgb(180, 189, 180);
+       
+    }
+    .image{
+        height:300px;
+        width: 200px;
+          margin-right: 2rem;
+        }
+        .right{
+            margin-top: 2rem;
+            font-weight: bold;
+            font-size: 1.5rem;
+            padding: 10px;
+            height:50vh
+        }
+}
