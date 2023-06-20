@@ -40,7 +40,7 @@ const found = movie.filter(obj=>obj._id === Id);
                     }}} src={movie.Trailer} title='youtube trailer' frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
                    <div className="t-contentArea">
                     <div ClassName="left">
-                         <img src={movie.Poster} className="image" alt="Poster"/>
+                         <img src={movie.Poster} className="a-image" alt="Poster"/>
                          </div>
                   <div className="right">
                   <section className="t-title">Tittle : {movie.Title}</section>
