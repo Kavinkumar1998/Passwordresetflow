@@ -8,6 +8,7 @@ import { VerifyOTP } from './Components/Verifyotp/Verifyotp';
 import { Movie} from './Components/Home/Home.js';
 import Movieabout from './Components/Movieabout/Movieabout';
 import { Addmovie } from './Components/Addmovie/Addmovie';
+
 function App() {
   return (
     <div className="App">
@@ -43,8 +44,7 @@ function App() {
      <Addmovie/>
       </Route>
 
- 
-
+    
       {/* <Route path="/**">
      <Nopage/>
       </Route> */}

@@ -52,7 +52,7 @@ useFormik({
     <div className='addmov'>
         <Navbar/>
         <Container component="main"  className='cont'  >
-        <Box className="main-box" sx={{width:"60rem"}}  >
+        <Box className="main-box" sx={{width:"60rem","@media (max-width: 480px)": {width:"auto"}}}  >
           <Typography   component="h1" variant="h5"> Add Movie Data  </Typography>
            <Box component="form" noValidate onSubmit={handleSubmit} sx={{ mt: 6 }}>
             <Grid container spacing={2}>

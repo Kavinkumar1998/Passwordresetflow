@@ -1,11 +1,14 @@
 .addmov{
-   background-color: rgb(2, 2, 2);
 
-}
-.cont{
-    align-content: center;
     background-color: rgb(2, 2, 2);
 }
-.main-box-add{
+.cont{
+    padding:4rem;
+    align-content: center;
+    
+}
 
+@media screen and (max-width: 480px) {
+
+ 
 }
