@@ -1,7 +1,6 @@
 import './App.css';
 import { Route} from "react-router-dom";
-import { Login } from './Components/Login/Login';
-import { Signup } from './Components/Signup/Signup';
+
 import Forgetpassword from './Components/Forgetpassword/Forgetpassword';
 import { Setpassword } from './Components/Setpassword/Setpassword';
 import { VerifyOTP } from './Components/Verifyotp/Verifyotp';
